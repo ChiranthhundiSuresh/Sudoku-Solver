@@ -25,3 +25,34 @@ The solver uses a recursive approach to try placing numbers in each empty cell a
 5. Run the script.
 6. View the original and solved Sudoku grids printed in the console.
 
+## Code Breakdown
+1. Grid Setup
+   i. Define the Sudoku grid as a 9x9 matrix.
+   ii. Example:
+          sudoku_grid = [
+              [5, 3, 0, 0, 7, 0, 0, 0, 0],
+              [6, 0, 0, 1, 9, 5, 0, 0, 0],
+              ...
+          ]
+2. Validation Function
+  i. Ensures the number placement is valid in the row, column, and 3x3 subgrid.
+3. Backtracking Algorithm
+  ii. Attempts to solve the Sudoku by recursively filling empty cells and undoing placements          when encountering invalid states.
+4. Printing Function
+  iii. Displays the grid in a readable format.
+
+## Output
+####Input (Original Sudoku Grid):
+[5, 3, 0, 0, 7, 0, 0, 0, 0]
+[6, 0, 0, 1, 9, 5, 0, 0, 0]
+[0, 9, 8, 0, 0, 0, 0, 6, 0]
+...
+####Output (Solved Sudoku Grid):
+[5, 3, 4, 6, 7, 8, 9, 1, 2]
+[6, 7, 2, 1, 9, 5, 3, 4, 8]
+[1, 9, 8, 3, 4, 2, 5, 6, 7]
+...
+
+## Customization
+1. Replace sudoku_grid with your own 9x9 puzzle.
+2. Enhance visual output by integrating libraries like Matplotlib or Tkinter for GUI-based solving.
