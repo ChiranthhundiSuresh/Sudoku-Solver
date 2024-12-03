@@ -42,12 +42,12 @@ The solver uses a recursive approach to try placing numbers in each empty cell a
   iii. Displays the grid in a readable format.
 
 ## Output
-####Input (Original Sudoku Grid):
+#### Input (Original Sudoku Grid):
 [5, 3, 0, 0, 7, 0, 0, 0, 0]
 [6, 0, 0, 1, 9, 5, 0, 0, 0]
 [0, 9, 8, 0, 0, 0, 0, 6, 0]
 ...
-####Output (Solved Sudoku Grid):
+#### Output (Solved Sudoku Grid):
 [5, 3, 4, 6, 7, 8, 9, 1, 2]
 [6, 7, 2, 1, 9, 5, 3, 4, 8]
 [1, 9, 8, 3, 4, 2, 5, 6, 7]
